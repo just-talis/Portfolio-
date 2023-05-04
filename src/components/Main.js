@@ -20,9 +20,9 @@ function Main() {
           applications.
         </p>
         <div>
-          <button className="hover:bg-[#6fc2b0] hover:border-[#6fc2b0] duration-300 text-white border-2 px-6 py-3 my-2 flex items-center">
+          <button className="hover:bg-[#6fc2b0] hover:border-[#6fc2b0] duration-300 text-white group border-2 px-6 py-3 my-2 flex items-center">
             View Work 
-            <span className="hover:rotate-90 duration-300">
+            <span className="group-hover:rotate-90 duration-300">
             <HiArrowNarrowRight  className="ml-3"/>
             </span>
           </button>
