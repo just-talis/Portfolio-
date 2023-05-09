@@ -13,17 +13,15 @@ function Main() {
           FRONTEND DEVELOPER.
         </h2>
         <p className="text-[#8892b0] max-w-[700px] py-4">
-          I'm passionate about software engineering and currently learning how
-          to build web apps with HTML, CSS, React, Vue and Javascript. I will
-          love to be part of tech communities and contribute to open-source
-          projects. I'm focused on building responsive frontend web
-          applications.
+          Experienced frontend developer skilled in React, TailwindCSS, and
+          JavaScript. Creating beautiful, responsive web applications is my
+          passion.
         </p>
         <div>
           <button className="hover:bg-[#6fc2b0] hover:border-[#6fc2b0] duration-300 text-white group border-2 px-6 py-3 my-2 flex items-center">
-            View Work 
+            View Work
             <span className="group-hover:rotate-90 duration-300">
-            <HiArrowNarrowRight  className="ml-3"/>
+              <HiArrowNarrowRight className="ml-3" />
             </span>
           </button>
         </div>
