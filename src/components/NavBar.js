@@ -1,8 +1,9 @@
 import React, { useState } from "react";
-import { FaBars, FaTimes, FaGithub, FaLinkedin } from "react-icons/fa";
-import { HiOutlineMail } from "react-icons/hi";
-import { BsFillPersonLinesFill } from "react-icons/bs";
-import Logo from "../assets/Esther.svg";
+import { FaBars, FaTimes } from "react-icons/fa";
+// import { FaGithub, FaLinkedin } from "react-icons/fa";
+// import { HiOutlineMail } from "react-icons/hi";
+// import { BsFillPersonLinesFill } from "react-icons/bs";
+// import Logo from "../assets/Esther.svg";
 
 function NavBar() {
   const [nav, setNav] = useState(false);
@@ -11,7 +12,8 @@ function NavBar() {
   return (
     <div className="fixed w-full h-[80px] flex justify-between items-center px-4 bg-purple-950 text-gray-100">
       <div>
-        <img src={Logo} alt="logo s" style={{ width: "50px" }} />
+        <h2>PORTFOLIO</h2>
+        {/* <img src={Logo} alt="logo s" style={{ width: "50px" }} /> */}
       </div>
 
       {/* menu */}
@@ -45,7 +47,7 @@ function NavBar() {
       </ul>
 
       {/* socials icons */}
-      <div className="hidden lg:flex fixed flex-col top-[35%] left-0">
+      {/* <div className="hidden lg:flex fixed flex-col top-[35%] left-0">
         <ul>
           <li className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#0072b1]">
             <a
@@ -80,7 +82,7 @@ function NavBar() {
             </a>
           </li>
         </ul>
-      </div>
+      </div> */}
     </div>
   );
 }
