@@ -1,11 +1,11 @@
 import React from "react";
-import { HiArrowNarrowRight } from "react-icons/hi";
+// import { HiArrowNarrowRight } from "react-icons/hi";
 
 function Main() {
   return (
-    <div name="main" className="w-full h-screen bg-[black]">
+    <div name="home" className="w-full bg-[black] py-[100px] pt-[200px]">
       {/* container */}
-      <div className="max-w-[1000px] mx-auto px-8 flex flex-col justify-center h-full">
+      <div className="max-w-[1000px] mx-auto px-8 flex flex-col justify-center">
         <h1 className="text-4xl sm:text-7xl font-bold text-purple-950">
           Esther Simon
         </h1>
@@ -14,17 +14,16 @@ function Main() {
         </h2>
         <p className="text-[#8892b0] max-w-[700px] py-4">
           Experienced frontend developer skilled in React, TailwindCSS, and
-          JavaScript. Creating beautiful, responsive web applications is my
-          passion.
+          JavaScript.
         </p>
-        <div>
+        {/* <div>
           <button className="hover:bg-[#6fc2b0] hover:border-[#6fc2b0] duration-300 text-white group border-2 px-6 py-3 my-2 flex items-center">
             View Work
             <span className="group-hover:rotate-90 duration-300">
               <HiArrowNarrowRight className="ml-3" />
             </span>
           </button>
-        </div>
+        </div> */}
       </div>
     </div>
   );

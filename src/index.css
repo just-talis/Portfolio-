@@ -19,10 +19,6 @@
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
-  height: 250px;
-}
-
-.content-div {
   background-image: linear-gradient(
     to right,
     rgba(17, 17, 19, 0.8),
